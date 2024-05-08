@@ -11,13 +11,13 @@ pipeline {
                         mimeType: 'text/html',
                         to: 'reddynikhitha164@gmail.com',
                         subject: "Jenkins Status",
-                        body:
+                        body: """
                             <html>
                                 <body>
                                     <h1>Jenkins Status Report</h1>
                                 </body>
                             </html>
-                        ,
+                        """,
                         attachLog: true
                     )
                 }
