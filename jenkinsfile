@@ -9,15 +9,15 @@ pipeline {
                 always {
                     emailext(
                         mimeType: 'text/html',
-                        to: 'kundanmarri1@gmail.com',
-                        subject: "Jenkins Pipeline Status",
-                        body: """
+                        to: 'reddynikhitha164@gmail.com',
+                        subject: "Jenkins Status",
+                        body:
                             <html>
                                 <body>
-                                    <h1>Pipeline Completion Report</h1>
+                                    <h1>Jenkins Status Report</h1>
                                 </body>
                             </html>
-                        """,
+                        ,
                         attachLog: true
                     )
                 }
