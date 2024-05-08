@@ -9,7 +9,7 @@ pipeline {
                 success {
                     emailext(
                         mimeType: 'text/html',
-                        to: "reddynikhitha164@gmail.com",
+                        to: 'nikireddy297@gmail.com',
                         subject: "Build Status Email",
                         body: "Build log attached.",
                         attachLog: true
